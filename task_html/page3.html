@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing</title>
+</head>
+<body>
+    <table border="1" align="center" > 
+        <tr>
+            <td> 
+                <table align="center"width="100px" height="200px" cellspacing="16" cellpadding="2">
+                    <!-- <caption style="text-align: left;"  >please fill all fields below</caption> -->
+                    <legend style="text-align: left;" ><h3>please fill all fields below</h3></legend>
+                    <br>
+                    <tr>
+                        <td><label for="name">Full Name</label></td>
+                        <td><input type="text" name="text" placeholder="type your full name here" id="name"></td>
+                        <td>
+                            <select >
+                                <option >Male</option>
+                                <option >Female</option>
+                                <option >other</option>
+                                <option >don't answer</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="nation">Nationlity</label></td>
+                            <td><input list="nation" name="nan">
+                            <datalist id="nation">
+                                <option value="Egyption">
+                                <option value="French">
+                                <option value="Korean">
+                                <option value="lebnanan">
+                                <option value="Amercain">
+                                <option value="Italian">
+                                <option value="African">
+                            </datalist></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phon">Telephone</label></td>
+                        <td><input type="tel" name="tel" id="phon" placeholder="type your tele num here"></td>
+                        <td><label for="fax">Fax</label></td>
+                        <td><input type="number" name="num" placeholder="type fax num here" id="fax"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nm">mobile</label></td>
+                        <td><input type="tel" name="num" id="nm" placeholder="type your tele num here"></td>
+                        <td><label for="emi">Email</label></td>
+                        <td><input type="email" name="em" id="emi" placeholder="type your email here"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lang">Spoken Language</label></td>
+                        <td><input list="lang" name="lang" >
+                        <datalist id="lang">
+                            <option value="Arabic">
+                            <option value="English">
+                            <option value="french">
+                            <option value="korean">
+                            <option value="german">
+                        </datalist>
+                        </td>
+                    </tr>
+                   </table>
+                   <hr>
+                   <table align="center"width="100px" height="200px" cellspacing="16" cellpadding="2">
+                    <tr>
+                        <td><label for="dt">Arival Date</label></td>
+                        <td><input type="date" name="date" id="dt"></td>
+                        <td><label for="tm">Arrival time</label></td>
+                        <td><input type="time" name="time" id="tm"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fly">flight num</label></td>
+                        <td><input type="number" name="numm" id="fly"></td>
+                        <td><label for="air">Air line</label></td>
+                        <td><input type="text" name="textt" id="air"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pt">Air port</label></td>
+                        <td><input type="text" name="port" id="pt"></td>
+                    </tr>
+                    </table>
+                    <hr>
+                    <table align="center" width="100px" height="200px" cellspacing="16" cellpadding="2">
+                    <tr>
+                        <td><label for="de">Departure Date</label></td>
+                        <td><input type="date" name="date" id="de"></td>
+                        <td><label for="dtime">Departure time</label> </td>
+                        <td><input type="time" name="detime" id="dtime" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="flight">Flight num</label></td>
+                        <td><input type="text" name="num" id="flight"></td>
+                        <td><label for="line">Air linr</label></td>
+                        <td><input type="text" name=" Air line" id="line"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="PORT">Air port</label></td>
+                        <td><input type="text" name="Air port" id="PORT"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gategory">Accommodation Gategory</label></td>
+                        <td> 
+                            <select id="gategory" name="gata">
+                                <option>1 stars</option>
+                                <option>2 stars</option>
+                                <option>3 stars</option>
+                                <option>4 stars</option>
+                                <option>5 stars</option>
+                                <option>6 stars</option>
+                                <option>7 stars</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="adult">Adults Number</label></td>
+                        <td>
+                            <select id="adult">
+                                <option>1</option>
+                                <option>11</option>
+                                <option>13</option>
+                                <option>15</option>
+                                <option>17</option>
+                                <option>19</option>
+                                <option>15</option>
+                                <option>17</option>
+                                <option>121</option>
+                                <option>156</option>
+                                <option>11</option>
+                                <option>113</option>
+                                <option>124</option>
+                                <option>16</option>
+                                <option>18</option>
+                            </select>
+                        </td>
+                        <td><label for="child">Child Number</label></td>
+                        <td>
+                            <select>
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>9</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="age">Age of children</label></td>
+                        <td><input type="text" name="txt" id="age"></td>
+                    </tr>
+                    </table>
+                    <hr>
+                    <table align="left" >
+                    <tr align="left">
+                        <td align="left"><label for="area">Note</label></td>
+                        <td align="left"><textarea name="textarea" id="area"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Book now"></td>
+                    </tr>
+                </table>
+            </td>   
+        </tr>
+    </table>
+</body>
+</html>
